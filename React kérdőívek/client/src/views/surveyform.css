@@ -1,0 +1,75 @@
+.mainDivv {
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    width: 600px;
+    max-width: 95%;
+    position: relative;
+}
+
+.pages {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.pagesDiv {
+    padding: 10px;
+    margin-right: 10px;
+    background-color: lightgray;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+
+.donePage {
+    background-color: rgb(38, 184, 38);
+    color: white;
+}
+
+.activePage {
+    background-color: rgb(32, 121, 255) !important;
+    color: white;
+}
+
+.donePage {
+    background-color: rgb(38, 184, 38);
+    color: white;
+}
+
+
+.questions label {
+    margin-top: 10%;
+    display: block;
+    color: black;
+}
+
+.questions input {
+    width: 69%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 5%;
+}
+
+.questions input:focus {
+    outline: none;
+}
+
+
+.buttonss {
+    background-color: #40536F;
+    margin: auto;
+    margin-inline: 14%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    width: 120px;
+    color: white;
+}
+
+.buttonss:disabled {
+    background-color: grey;
+}

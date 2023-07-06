@@ -1,0 +1,91 @@
+.mainDiv {
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    width: 800px;
+    max-width: 95%;
+    position: relative;
+}
+
+h2 {
+    margin-bottom: 5%;
+}
+
+.survey {
+    height: 50px;
+    margin: auto;
+    padding-top: 3%;
+    position: relative;
+}
+
+.survey1 {
+    background-color: rgb(241, 241, 241);
+}
+
+.survey2 {
+    background-color: white;
+}
+
+.headDiv {
+    position: relative;
+    display: block;
+    margin-bottom: 1%;
+    height: 20px;
+}
+
+.nameH {
+    position: absolute;
+    left: 13%;
+    top: 7%;
+    font-weight: bold;
+}
+
+.actionsH {
+    position: absolute;
+    right: 17%;
+    top: 7%;
+    font-weight: bold;
+}
+
+.name {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.actions {
+    position: absolute;
+    right: -60%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.actions img {
+    width: 3%;
+    margin-top: 7px;
+    margin-inline: 2px;
+    border-radius: 50%
+}
+.actions img:hover {
+    box-shadow: 0 0 10px #00d66f;
+}
+
+.buttons {
+    background-color: #40536F;
+    margin-inline: 1%;
+    margin-bottom: 2%;
+    width: 120px;
+    color: white;
+}
+
+.buttons:disabled {
+    background-color: grey;
+}
+
+.addButton {
+    display: block;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}

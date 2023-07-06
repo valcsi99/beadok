@@ -1,0 +1,29 @@
+input {
+    display: block;
+    margin: auto;
+    margin-bottom: 2%;
+    width: 90%;
+}
+label {
+    color: white;
+    display: block;
+    margin: auto;
+    margin-bottom: 1%;
+}
+
+.registerdiv {
+    margin: auto;
+    background-color: #587291;
+    padding: 2%;
+    margin-bottom: 7%;
+    width: 85%;
+    height: 80%;
+    color: black;
+    border: 2px solid #A2E8DD;
+    border-radius: 12px;
+    box-shadow: 0 0 10px 5px #A2E8DD;
+}
+
+button {
+    margin-top: 3%;
+}

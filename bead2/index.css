@@ -1,0 +1,94 @@
+body {
+    background-color:rgb(241, 195, 135);
+}
+
+h1 {
+    text-align: center;
+}
+
+.loginDiv {
+    height: 95px;
+    width: 180px;
+    float: right;
+    position: relative;
+    top: -50px;
+    right: 15px;
+}
+
+.mainDiv {
+    width: 900px;
+    max-height: 100%;
+    border: 1px solid grey;
+    background-color: rgb(238, 207, 168);
+    margin: auto;
+    padding: 5px;
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.headerDiv {
+    width: 99%;
+    height: 100px;
+    border: 1px solid grey;
+    background-color: rgb(238, 207, 168);
+    margin: auto;
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
+}
+
+.card {
+    display: block;
+    max-height: 100%;
+    width: 500px;
+    background-color: rgb(230, 162, 18);
+    margin: auto;
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 25px;
+    margin-bottom: 5px;
+}
+
+.id {
+    position: relative;
+    top: 5px;
+    right: 170px;
+    width: 20px;
+    height: 20px;
+    color: lightgray;
+}
+
+.title {
+    position: relative;
+    bottom: 13px;
+}
+
+.dates {
+    position: relative;
+    bottom: 20px;
+}
+
+.sub {
+    position: relative;
+    bottom: 20px;
+}
+
+table{
+    position: relative;
+    bottom: 20px;
+    background-color: azure;
+    border: 1px solid grey;
+    margin: auto;
+}
+
+.stats {
+    position: relative;
+    bottom: 20px;
+}
+
+.delete {
+    position: relative;
+    top: 5px;
+    left: 150px;
+}

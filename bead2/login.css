@@ -1,0 +1,31 @@
+body {
+    background-color:burlywood ;
+}
+
+div {
+    margin: auto;
+    border: 1px solid gray;
+    background-color: beige;
+    height: 200px;
+    width: 180px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 5px;
+    margin-top: 10%;
+}
+
+button {
+    margin: auto;
+    margin-top: 10px;
+}
+
+h2 {
+    text-align: center;
+    position: relative;
+    top: 130px;
+}
+
+.error {
+    color: red;
+}

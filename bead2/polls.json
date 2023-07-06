@@ -1,0 +1,108 @@
+{
+    "63c44314eeb5f": {
+        "question": "Legyen p\u00f6tty\u00f6s automata a l\u00e1gym\u00e1nyosi campuson?",
+        "isMultiple": false,
+        "deadline": "2023-01-04",
+        "options": [
+            "Igen",
+            "Nem"
+        ],
+        "createdAt": "2023-01-15",
+        "id": "63c44314eeb5f",
+        "votes": {
+            "63c442dd803b2": "Igen",
+            "63c44428d2829": "Igen",
+            "63c4448518746": "Nem"
+        }
+    },
+    "63c4432faa213": {
+        "question": "Kik a kedvenc h\u0151seid?",
+        "isMultiple": true,
+        "deadline": "2023-02-04",
+        "options": [
+            "Katarina",
+            "Zed",
+            "Gwen",
+            "Ahri",
+            "Talon",
+            "Yasuo"
+        ],
+        "createdAt": "2023-01-15",
+        "id": "63c4432faa213",
+        "votes": {
+            "63c44569608fe": {
+                "1": "Katarina",
+                "2": "Zed",
+                "3": "Talon"
+            }
+        }
+    },
+    "63c4436f861ac": {
+        "question": "Mik a kedvenc \u00e9teleid?",
+        "isMultiple": true,
+        "deadline": "2023-01-05",
+        "options": [
+            "T\u00f6lt\u00f6tt k\u00e1poszta",
+            "R\u00e1ntott csirkemell",
+            "R\u00e1ntott csirkecomb",
+            "R\u00e1ntott hal",
+            "Paradicsomos k\u00e1poszta",
+            "Hamburger",
+            "Gyros"
+        ],
+        "createdAt": "2023-01-15",
+        "id": "63c4436f861ac",
+        "votes": {
+            "63c442dd803b2": {
+                "1": "T\u00f6lt\u00f6tt k\u00e1poszta",
+                "2": "R\u00e1ntott csirkemell",
+                "3": "R\u00e1ntott csirkecomb",
+                "4": "R\u00e1ntott hal",
+                "5": "Hamburger",
+                "6": "Gyros"
+            },
+            "63c44428d2829": {
+                "1": "T\u00f6lt\u00f6tt k\u00e1poszta",
+                "2": "Paradicsomos k\u00e1poszta"
+            },
+            "63c4448518746": {
+                "1": "R\u00e1ntott csirkecomb",
+                "2": "Hamburger",
+                "3": "Gyros"
+            }
+        }
+    },
+    "63c4438096ff3": {
+        "question": "Szeretsz utazni?",
+        "isMultiple": false,
+        "deadline": "2023-01-29",
+        "options": [
+            "Igen",
+            "Nem"
+        ],
+        "createdAt": "2023-01-15",
+        "id": "63c4438096ff3",
+        "votes": {
+            "63c4448518746": "Igen"
+        }
+    },
+    "63c443c2e665a": {
+        "question": "Ha csak egy helyen \u00e9lhetn\u00e9l melyik orsz\u00e1g lenne?",
+        "isMultiple": false,
+        "deadline": "2023-01-06",
+        "options": [
+            "Magyarorsz\u00e1g",
+            "Hollandia",
+            "Kanada",
+            "Ir\u00e1n",
+            "Norv\u00e9gia"
+        ],
+        "createdAt": "2023-01-15",
+        "id": "63c443c2e665a",
+        "votes": {
+            "63c442dd803b2": "Norv\u00e9gia",
+            "63c44428d2829": "Magyarorsz\u00e1g",
+            "63c4448518746": "Norv\u00e9gia"
+        }
+    }
+}

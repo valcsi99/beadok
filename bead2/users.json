@@ -1,0 +1,48 @@
+{
+    "63c442dd803b2": {
+        "username": "admin",
+        "email": "admin@admin.com",
+        "password": "$2y$10$JKwpZ8SOO7G26OgJmUPineF6EujXTBv8R4NNCRRf6w3m\/SRrR.qe2",
+        "roles": [
+            "user",
+            "admin"
+        ],
+        "id": "63c442dd803b2"
+    },
+    "63c44428d2829": {
+        "username": "janos",
+        "email": "janos@gmail.com",
+        "password": "$2y$10$hTOhm6v8Qz6CWfLBuU2hyefi2a3TE1t16.8zPuje6wUBaBR6k..\/G",
+        "roles": [
+            "user"
+        ],
+        "id": "63c44428d2829"
+    },
+    "63c4448518746": {
+        "username": "peti",
+        "email": "peti@gmail.com",
+        "password": "$2y$10$WsTX6v8oUb6qNyKKi2nS3.xDprD95uhci9FLplenPvQJhmpLYI7XC",
+        "roles": [
+            "user"
+        ],
+        "id": "63c4448518746"
+    },
+    "63c44569608fe": {
+        "username": "marci",
+        "email": "marci@gmail.com",
+        "password": "$2y$10$ILjA1gHscvMG61F9mjxPTuT51lb.PgoTwOOgdIGitt07D4hwQlwzG",
+        "roles": [
+            "user"
+        ],
+        "id": "63c44569608fe"
+    },
+    "643c5b2c558ba": {
+        "username": "marcika",
+        "email": "marcisari@gmail.com",
+        "password": "$2y$10$aND.G8jTi4z22MPa6L.FKOrvNqwRS8PdBsmuf8k25FUsOzMr41YJy",
+        "roles": [
+            "user"
+        ],
+        "id": "643c5b2c558ba"
+    }
+}

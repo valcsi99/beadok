@@ -1,0 +1,105 @@
+@import './mixins.scss';
+
+.main-menu{
+    display: flex;
+    flex-direction: column;
+    gap: $gap;
+    button{
+        @include button();
+        margin: auto;
+        min-width: 10em;
+    }
+}
+
+.game-gui{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    &, .panel, .action-panel, #city-container{
+        border: 1px solid var(--fg);
+    }
+
+    .panel{
+        @include panel;
+        button{ @include button() }
+        &.menu-panel{
+            span:last-child{
+                margin-left: auto;
+            }
+        }
+    }
+
+    .hbox{
+        display: flex;
+        flex-grow: 1;
+        overflow: auto;
+        .action-panel{
+            min-width: 440px;
+            background-color: var(--bg);
+            padding-top: $gap;
+            h3{
+                margin-left: $gap;
+            }
+            h4{
+                margin-left: $gap;
+            }
+            .hbox{
+                width: 100%;
+                gap: $gap;
+                margin: 0 0 $gap $gap;
+                button{
+                    @include button();
+                    min-width: 110px;
+                }
+            }
+            .htimebox{
+                width: 100%;
+                gap: $gap;
+                margin: 0 0 $gap $gap;
+                button{
+                    @include button();
+                    min-width: 70px;
+                    margin-right: 10px;
+                    gap: 20px;
+                }
+            }
+            .vtaxbox{
+                width: 100%;
+                gap: $gap;
+                margin: 0 0 $gap $gap;
+                display: flex;
+                flex-direction: column;
+                flex-grow: 1;
+                input{
+                    @include input();
+                    padding: $gap;
+                    margin-left: $gap;
+                    width: 80%;
+                }
+            }
+            button{ 
+                &.selected{
+                    background-color: #60cbff;
+                    &:hover{
+                        background-color: #68abe3;
+                    }
+                }
+                &:disabled{
+                    background-color: #383434;
+                }
+            }
+        }
+        .vbox{
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+            overflow: hidden;
+            #city-container{
+                flex-grow: 1;
+                overflow: scroll;
+            }
+        }
+    }
+}

@@ -1,0 +1,48 @@
+$radii: 9px;
+$padding: .4em;
+
+@mixin button($flat: false, $interactive: true){
+    font-size: large;
+    border-radius: $radii;
+    padding: $padding;
+    color: var(--fg);
+    border: none;
+    @if $flat{
+        background-color: transparent;
+        box-shadow: none;
+    }@else{
+        background-color: var(--bg);
+    }
+    @if $interactive{
+        &:hover{
+            background-color: var(--hover-bg);
+            color: var(--hover-fg);
+        }
+        &:active{
+            background-color: var(--active-bg);
+            color: var(--active-fg);
+        }
+    }
+}
+
+@mixin input($flat: false, $interactive: true){
+    font-size: medium;
+    border-radius: $radii;
+    padding: $padding;
+    color: var(--fg);
+    border: none;
+    width: 80px;
+}
+
+$gap: 1em;
+@mixin panel(){
+    background-color: var(--bg);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: $gap;
+    padding: $gap;
+    * {
+        font-size: large
+    };
+}

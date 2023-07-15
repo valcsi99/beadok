@@ -1,0 +1,43 @@
+@import './src/app.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    color-scheme: dark light;
+}
+
+@media (prefers-color-scheme: dark){
+    :root{
+        --app-bg: #181818;
+        --bg:   rgba(255,255,255,0.08);
+        --fg:   rgba(255,255,255,0.8);
+        --hover-bg:  rgba(255,255,255,0.12);
+        --hover-fg:  rgba(255,255,255,0.9);
+        --active-bg: rgba(255,255,255,0.16);
+        --active-fg: rgba(255,255,255,1);
+    }
+}
+
+@media (prefers-color-scheme: light){
+    :root{
+        --app-bg: white;
+        --bg:   rgba(0,0,0,0.08);
+        --fg:   rgba(0,0,0,0.8);
+        --hover-bg:  rgba(0,0,0,0.12);
+        --hover-fg:  rgba(0,0,0,0.9);
+        --active-bg: rgba(0,0,0,0.16);
+        --active-fg: rgba(0,0,0,1);
+    }
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
